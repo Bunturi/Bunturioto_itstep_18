@@ -15,3 +15,7 @@ def decorator(func):
 @decorator
 def transaction(deposit, amount):
     return deposit, amount
+
+
+result = transaction(100, 20)
+print(result)
